@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+.g__container{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.g__light-text{
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(33, 37, 41, 0.6);
+}
+
+h2{
+  font-size: 34px;
+  line-height: 41.45px;
+  font-weight: 700;
+  color: rgba(33, 37, 41, 1)
+}
+
+img{
+  position: inherit !important;
+}
+
+.swiper_container {
+  height: 650px;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 400px !important;
+  height: 650px;
+  position: relative;
+  margin: 0 30px;
+}
+
+
+
+.swiper-slide img {
+  width: 400px;
+  height: 600px;
+  border-radius: 2rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right  {
+  background-image: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
